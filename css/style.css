@@ -1,0 +1,139 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+h1 {
+	font-family: Helvetica;
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 0;
+ 	margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: center;
+  padding: 0px;
+}
+
+h3 {
+	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#container{
+	width: 100%;
+}
+
+section {
+  background-color: gray;
+  font-family: Helvetica;
+  color: black;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  }
+
+#ourmenu {
+	background-color: white;
+	padding: 0px;
+	margin-top: 0px;
+	border: none;
+}
+
+#header-nav {
+  background-color: white;
+  color: black;
+  border-radius: 0;
+  padding: 1em;
+}
+
+.navbar-brand h1{ /* Restaurant name */
+  font-family: 'Helvetica';
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .70;
+}
+
+ .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+  color: black;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  color: black;
+}
+
+#collapsable-nav {
+	width: 100%;
+	background: white;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background: gray;
+    color: black;
+    text-align: center;
+    width: 100%
+  }
+
+#collapsable-nav a:hover {
+	background: white;
+  	border: 2px dashed black;
+  	width:100%;
+}
+
+/* Simple Responsive Framework. */
+div.row {
+  width: 100%;
+
+}
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+  .col-md-12 .col-sm-12 .col-xs-12{
+    float: left;
+    width: 100%;
+  }
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-12 .col-sm-12 .col-xs-12 {
+    float: left;
+    width: 100%;
+  }
+
+/********** Mobile View **********/
+@media (max-width: 767px) {
+  .col-md-12 .col-sm-12 .col-xs-12{
+    float: left;
+    width: 100%;
+  }
+  .col-xs-12 {
+  	position: relative;
+  	padding: 0;
+  }
+
+</style>
+</head>
